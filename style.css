@@ -1,0 +1,122 @@
+@charset "UTF-8";
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  background-color: #EEEEEE;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.tutorial {
+  margin: 0 auto 0 auto;
+}
+.tutorial .slider {
+  width: 100%;
+  height: 300px;
+  background-color: #3454D1;
+}
+.tutorial .information {
+  width: 100%;
+  padding: 20px 50px;
+  font-family: "Open Sans", sans-serifś;
+}
+.tutorial .information h1 {
+  color: #333;
+  font-size: 1.5rem;
+  padding: 0px 10px;
+  border-left: 3px solid #3454D1;
+}
+.tutorial .information h3 {
+  color: #e0e0e0;
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 0px 10px;
+  border-left: 3px solid #3454D1;
+}
+.tutorial .information p {
+  padding: 10px 0px;
+}
+.tutorial .menu ul {
+  font-size: 0;
+  list-style-type: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.tutorial .menu ul li {
+  font-family: "Open Sans", sans-serifś;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #3454D1;
+  display: inline-block;
+  padding: 15px;
+  position: relative;
+}
+.tutorial .menu .right {
+  float: right;
+}
+.tutorial .menu li:hover {
+  background: #3454D1;
+  color: #f9f9f9;
+}
+.tutorial form input[type=text], .tutorial form input[type=password], .tutorial form input[type=number], .tutorial form select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.tutorial input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.tutorial input[type=submit]:hover {
+  background-color: #45a049;
+}
+.tutorial .form {
+  width: 50%;
+  margin: 2% auto 0 auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  margin-bottom: 30px;
+}
+.tutorial .table {
+  width: 90%;
+  margin: 0 auto 0 auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  margin-bottom: 30px;
+}
+.tutorial .table table {
+  margin: 1% auto 0 auto;
+  width: 100%;
+  border-spacing: 0;
+}
+.tutorial .table table th {
+  font-weight: 600;
+  color: #3685B5;
+}
+.tutorial .table table td {
+  font-weight: 500;
+}
+.tutorial .table table th, .tutorial .table table td {
+  border: 2px solid #ddd;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */
